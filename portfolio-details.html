@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Portfolio Details - Craftivo Bootstrap Template</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicons -->
+    <link href="assets/img/Tab.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: Craftivo
+  * Template URL: https://bootstrapmade.com/craftivo-bootstrap-portfolio-template/
+  * Updated: Oct 04 2025 with Bootstrap v5.3.8
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="portfolio-details-page">
+
+    <header id="header" class="header d-flex align-items-center sticky-top">
+        <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+            <a href="index.html" class="logo d-flex align-items-center me-auto">
+                <!-- Uncomment the line below if you also wish to use an image logo -->
+                <!-- <img src="assets/img/logo.webp" alt=""> -->
+                <h1 class="sitename">Portfolio.</h1>
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#resume">Education</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+            <a class="btn-getstarted" href="#about">Get Started</a>
+
+        </div>
+    </header>
+
+    <main class="main">
+
+        <!-- Page Title -->
+        <div class="page-title light-background">
+            <div class="container">
+                <nav class="breadcrumbs">
+                    <ol>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="current">Portfolio Details</li>
+                    </ol>
+                </nav>
+                <h1>Portfolio Details</h1>
+            </div>
+        </div><!-- End Page Title -->
+
+        <!-- Portfolio Details Section -->
+        <section id="portfolio-details" class="portfolio-details section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <span class="subtitle">Portfolio Details</span>
+                <h2>Portfolio Details</h2>
+                <p>I focus on creating efficient and reliable web solutions that solve real-world problems. My approach
+                    is centered on writing clean, maintainable code and building interfaces that are both functional and
+                    visually appealing. I aim to deliver projects that provide value, performance, and a seamless user
+                    experience.</p>
+            </div><!-- End Section Title -->
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row gy-5">
+
+                    <div class="col-lg-8">
+
+                        <div class="portfolio-details-slider swiper init-swiper">
+                            <!-- For Different Data in same Page -->
+                            <script>
+                                document.addEventListener("DOMContentLoaded", function () {
+
+                                    const projects = {
+                                        1: {
+                                            title: "Scentora Luxe – Luxury Perfume Brand UI",
+                                            category: "Creative Design",
+                                            client: "Personal Project",
+                                            date: "2025",
+                                            duration: "4 Weeks",
+                                            tech: " JavaScript , React , TypeScript",
+                                            desc: "Scentora Luxe is a luxury-themed perfume brand website designed to deliver a premium and elegant user experience. The project focuses on modern UI/UX principles, smooth animations, and a visually appealing layout that reflects high-end branding.",
+                                            overview: "This project was created to showcase advanced frontend skills by designing a complete luxury brand interface. The goal was to combine aesthetics with performance, ensuring that users experience smooth navigation, fast loading, and a visually rich design across all devices.",
+                                            technical: ["Built using semantic HTML for better structure and SEO", "Styled with modern CSS techniques including Flexbox and responsive design", "Interactive elements handled using JavaScript", "Optimized images and layout for fast performance", "Fully responsive across mobile, tablet, and desktop"],
+                                            highlights: ["Fully Responsive Design", "Clean and Modern UI", "Smooth Scrolling & Animations", "Optimized Performance", "User-Friendly Navigation ", "Elegant Typography & Color Scheme"],
+                                            images: [
+                                                "assets/img/portfolio/Image.jpeg"
+                                            ],
+                                            link: "https://scentora-luxe.vercel.app/",
+                                        },
+
+                                        2: {
+                                            title: "BookBridge",
+                                            category: "Web Application",
+                                            client: "Personal Project",
+                                            date: "2025",
+                                            duration: "3-4 Weeks",
+                                            tech: "React , TypeScript",
+
+                                            desc: "A modern online book platform for exploring and discovering books.",
+
+                                            overview: "BookBridge is a web-based platform designed to connect readers with a variety of books through a clean and engaging interface. The project focuses on delivering a smooth user experience with well-structured sections and visually appealing layouts.",
+
+                                            technical: "Developed using HTML, CSS, and JavaScript. The project uses Flexbox and Grid for layout structuring, along with responsive design techniques to ensure compatibility across all devices.",
+
+                                            highlights: [
+                                                "Fully Responsive Design",
+                                                "Modern and Clean UI",
+                                                "Fast Performance",
+                                                "Well-Structured Layout",
+                                                "Smooth Navigation"
+                                            ],
+                                            images: [
+                                                "assets/img/portfolio/Image1.jpeg"
+                                            ],
+                                            link: "https://bookbridge-seven.vercel.app/",
+                                        },
+
+                                        3: {
+                                            title: "MedDrone",
+                                            category: "Frontend Web Application",
+                                            client: "Personal Project",
+                                            date: "2025",
+                                            duration: "3-4 Weeks",
+                                            tech: " JavaScript , React , Typescript",
+
+                                            desc: "A modern healthcare delivery concept platform using drones.",
+
+                                            overview: "MedDrone is a futuristic web-based concept that showcases how drones can be used for fast and efficient medical supply delivery. The platform highlights emergency services, speed, and accessibility through a clean and modern interface.",
+
+                                            technical: "Built using HTML, CSS, and JavaScript. The project uses responsive design principles, structured layouts with Flexbox/Grid, and interactive UI elements to simulate a real-world healthcare delivery system.",
+
+                                            highlights: [
+                                                "Modern Healthcare UI Design",
+                                                "Fully Responsive Layout",
+                                                "Fast and Lightweight Performance",
+                                                "Clean and Professional Interface",
+                                                "Smooth Navigation Experience"
+                                            ],
+                                            images: [
+                                                "assets/img/portfolio/Image2.jpeg"
+                                            ],
+                                            link: "https://meddrone-tau.vercel.app/",
+                                        },
+
+                                        4: {
+                                            title: "EduVerse",
+                                            category: "Frontend Web Application",
+                                            client: "Personal Project",
+                                            date: "2025",
+                                            duration: "3-4 Weeks",
+                                            tech: "JavaScript , React , Typescript",
+
+                                            desc: "An online education platform UI for modern learning experience.",
+
+                                            overview: "EduVerse is a modern e-learning platform interface designed to provide users with an engaging and interactive learning experience. The project focuses on structured content presentation, clean UI, and smooth navigation for students.",
+
+                                            technical: "Developed using HTML, CSS, and JavaScript. The project implements responsive layouts using Flexbox and Grid, along with interactive sections to simulate a real-world educational platform.",
+
+                                            highlights: [
+                                                "Modern E-learning UI",
+                                                "Fully Responsive Design",
+                                                "Clean and Structured Layout",
+                                                "Smooth User Experience",
+                                                "Fast Performance"
+                                            ],
+                                            images: [
+                                                "assets/img/portfolio/Image3.jpeg"
+                                            ],
+                                            link: "https://eduverse-sand.vercel.app/",
+                                        },
+
+                                        5: {
+                                            title: "Live Analyzer",
+                                            category: "Frontend Tool / Utility Application",
+                                            client: "Personal Project",
+                                            date: "2025",
+                                            duration: "2-3 Weeks",
+                                            tech: "HTML, CSS, JavaScript",
+
+                                            desc: "A real-time text analysis tool for instant insights.",
+
+                                            overview: "Live Analyzer is a web-based utility tool that provides real-time analysis of user input text. It instantly calculates metrics like word count, character count, and other insights, offering a fast and interactive experience.",
+
+                                            technical: "Built using HTML, CSS, and JavaScript with real-time event handling. The project uses DOM manipulation and input listeners to dynamically update analysis results without page reload.",
+
+                                            highlights: [
+                                                "Real-Time Text Analysis",
+                                                "Instant UI Updates",
+                                                "Lightweight and Fast",
+                                                "Clean Utility Interface",
+                                                "User-Friendly Experience"
+                                            ],
+                                            images: [
+                                                "assets/img/portfolio/Image4.jpeg"
+                                            ],
+                                            link: "https://live-analyzer.vercel.app/",
+                                        }
+                                    };
+
+                                    const id = new URLSearchParams(window.location.search).get("id");
+                                    const p = projects[id];
+
+                                    if (!p) return;
+
+                                    //  MAIN CONTENT (NO DESIGN CHANGE)
+                                    document.getElementById("project-title").innerText = p.title;
+                                    document.getElementById("project-date").innerText = p.date;
+                                    document.getElementById("project-category").innerText = p.category;
+                                    document.getElementById("project-client").innerText = p.client;
+
+                                    document.getElementById("project-desc").innerText = p.desc;
+                                    document.getElementById("project-overview").innerText = p.overview;
+                                    document.getElementById("project-technical").innerText = p.technical;
+                                    const wrapper = document.querySelector(".swiper-wrapper");
+                                    wrapper.innerHTML = "";
+
+                                    p.images.forEach(img => {
+                                        wrapper.innerHTML += `
+                                         <div class="swiper-slide">
+                                          <img src="${img}" class="img-fluid">
+                                         </div>
+                                        `;
+                                    });
+                                    // HIGHLIGHTS
+                                    const ul = document.getElementById("project-highlights");
+                                    ul.innerHTML = "";
+                                    p.highlights.forEach(h => {
+                                        ul.innerHTML += `<li><i class="bi bi-check-circle"></i> ${h}</li>`;
+                                    });
+
+                                    // SIDEBAR
+                                    document.getElementById("s-client").innerText = p.client;
+                                    document.getElementById("s-category").innerText = p.category;
+                                    document.getElementById("s-date").innerText = p.date;
+                                    document.getElementById("s-duration").innerText = p.duration;
+                                    document.getElementById("s-tech").innerText = p.tech;
+                                    document.getElementById("project-link").href = p.link;
+
+                                });
+                            </script>
+                            <div class="swiper-wrapper"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+
+                        <div class="portfolio-content" data-aos="fade-up" data-aos-delay="200">
+                            <h2 id="project-title"></h2>
+
+                            <div class="meta-info">
+                                <span class="date" id="project-date"><i class="bi bi-calendar"></i> </span>
+                                <span class="category" id="project-category"><i class="bi bi-tag"></i></span>
+                                <span class="client" id="project-client"><i class="bi bi-building"></i></span>
+                            </div>
+
+                            <p id="project-desc">
+                            </p>
+
+                            <h3 id="project-overview"></h3>
+                            <p id="project-technical">
+                            </p>
+
+                            <div class="highlights-box" id="project-highlights">
+                                <h4>Key Highlights</h4>
+                                <ul>
+                                    <li><i class="bi bi-check-circle"></i> </li>
+                                    <li><i class="bi bi-check-circle"></i> </li>
+                                    <li><i class="bi bi-check-circle"></i> </li>
+                                    <li><i class="bi bi-check-circle"></i></li>
+                                    <li><i class="bi bi-check-circle"></i> </li>
+                                </ul>
+                            </div>
+
+                            <h3>Technical Implementation</h3>
+                            <p>
+                                Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+                                beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                                aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                                voluptatem sequi nesciunt.
+                            </p>
+
+                            <blockquote>
+                                <i class="bi bi-quote quote-icon"></i>
+                                <p>
+                                    I am a passionate Frontend Developer focused on building modern, responsive, and
+                                    user-friendly web applications. I enjoy creating clean UI designs and turning ideas
+                                    into interactive digital experiences using HTML, CSS, and JavaScript.
+                                </p>
+                                <div class="author">
+                                    <img src="assets/img/profile/Picture.jpeg" alt="Author">
+                                    <div class="author-info">
+                                        <h5>Muhammad Rehan</h5>
+                                        <span>Project Lead</span>
+                                    </div>
+                                </div>
+                            </blockquote>
+
+                            <p>
+                                I am a dedicated and detail-oriented developer with a passion for crafting high-quality
+                                web applications. My goal is to combine creativity with technical expertise to build
+                                responsive, fast, and visually engaging user interfaces. I am always eager to learn,
+                                solve complex problems, and deliver solutions that provide real value to users.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4">
+
+                        <div class="sidebar" data-aos="fade-up" data-aos-delay="200">
+
+                            <div class="info-card">
+                                <h3>Project Details</h3>
+                                <div class="info-item">
+                                    <span class="label">Client</span>
+                                    <span class="value" id="s-client"></span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="label">Category</span>
+                                    <span class="value" id="s-category"></span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="label">Date</span>
+                                    <span class="value" id="s-date"></span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="label">Duration</span>
+                                    <span class="value" id="s-duration"></span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="label">Technologies</span>
+                                    <span class="value" id="s-tech"></span>
+                                </div>
+                                <a id="project-link" class="btn-primary" target="_blank">
+                                    <i class="bi bi-box-arrow-up-right"></i> View Live Project
+                                </a>
+                            </div>
+
+                            <div class="share-card" data-aos="fade-up" data-aos-delay="300">
+                                <h3>Share This Project</h3>
+                                <div class="social-links">
+                                    <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                                    <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                                    <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                                    <a href="#" class="pinterest"><i class="bi bi-pinterest"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="tags-card" data-aos="fade-up" data-aos-delay="400">
+                                <h3>Tags</h3>
+                                <div class="tags">
+                                    <a href="#">Design</a>
+                                    <a href="#">Development</a>
+                                    <a href="#">React</a>
+                                    <a href="#">UX/UI</a>
+                                    <a href="#">Frontend</a>
+                                    <a href="#">Backend</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section><!-- /Portfolio Details Section -->
+
+    </main>
+
+    <footer id="footer" class="footer">
+
+        <div class="container footer-top">
+            <div class="row gy-4">
+                <div class="col-lg-5 col-md-12 footer-about">
+                    <a href="index.html" class="logo d-flex align-items-center">
+                        <span class="sitename">Portfolio</span>
+                    </a>
+                    <p>I am a dedicated and detail-oriented developer with a passion for crafting high-quality web
+                        applications. My goal is to combine creativity with technical expertise to build responsive,
+                        fast, and visually engaging user interfaces. I am always eager to learn, solve complex problems,
+                        and deliver solutions that provide real value to users.
+                    </p>
+                    <div class="social-links d-flex mt-4">
+                        <a href=""><i class="bi bi-twitter-x"></i></a>
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-6 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Terms of service</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-6 footer-links">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Responsive ideas</a></li>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">Graphic Design</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+                    <h4>Contact Us</h4>
+                    <p>Mohallah Asghar Park/p>
+                    <p>Tajpura Lahore</p>
+                    <p>Pakistan</p>
+                    <p class="mt-4"><strong>Phone:</strong> <span>+92-334-4013922</span></p>
+                    <p><strong>Email:</strong> <span>rehandin2007@gmail.com</span></p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container copyright text-center mt-4">
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">Craftivo</strong> <span>All Rights Reserved</span>
+            </p>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you've purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+                <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> | <a
+                    href="https://bootstrapmade.com/tools/">DevTools</a> -->
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

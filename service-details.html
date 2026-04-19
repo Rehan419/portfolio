@@ -15,7 +15,9 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -47,6 +49,10 @@
         <h1 class="sitename">Portfolio.</h1>
       </a>
 
+
+
+
+
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero">Home</a></li>
@@ -54,7 +60,7 @@
           <li><a href="#resume">Education</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          
+
           <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -96,31 +102,31 @@
                   <div class="service-icon">
                     <i class="bi bi-code-square"></i>
                   </div>
-                  <h3>Web Development</h3>
-                  <p class="service-tagline">Full-Stack Solutions</p>
+                  <h3 id="serviceTitle"></h3>
+                  <p class="service-tagline" id="serviceTagline"></p>
                 </div>
                 <div class="card-body">
                   <div class="price-tag">
                     <span class="label">Starting at</span>
-                    <span class="price">$2,500</span>
+                    <span class="price" id="servicePrice">2500 $</span>
                   </div>
                   <ul class="quick-info">
                     <li>
                       <i class="bi bi-clock"></i>
-                      <span>4-6 weeks delivery</span>
+                      <span id="deliveryTime">4-6 weeks delivery</span>
                     </li>
                     <li>
                       <i class="bi bi-arrow-repeat"></i>
-                      <span>Unlimited revisions</span>
+                      <span id="revisions">Unlimited revisions</span>
                     </li>
                     <li>
                       <i class="bi bi-shield-check"></i>
-                      <span>60 days support</span>
+                      <span id="support">60 days support</span>
                     </li>
                   </ul>
                   <div class="cta-buttons">
-                    <a href="#" class="btn-primary">Start Project</a>
-                    <a href="#" class="btn-secondary">Schedule Call</a>
+                    <a href="#contact" class="btn-primary">Start Project</a>
+                    <a href="#contact" class="btn-secondary">Schedule Call</a>
                   </div>
                 </div>
               </div>
@@ -149,13 +155,13 @@
             <div class="service-overview" data-aos="fade-up" data-aos-delay="200">
               <div class="overview-header">
                 <span class="badge">Premium Service</span>
-                <h2>Professional Web Development That Drives Results</h2>
+                <h2 id="serviceHeading"></h2>
               </div>
-              <p class="lead-text">Transform your digital presence with custom web solutions built to perform. I specialize in creating high-performance websites that combine stunning design with powerful functionality, delivering exceptional user experiences that convert visitors into customers.</p>
+              <p class="lead-text" id="serviceDesc"></p>
             </div>
 
             <div class="service-image-showcase" data-aos="zoom-in" data-aos-delay="300">
-              <img src="assets/img/services/services-1.webp" alt="Web Development" class="img-fluid main-image">
+              <img id="serviceImage" src="" alt="Service" class="img-fluid main-image">
               <div class="image-overlay">
                 <div class="tech-stack">
                   <span class="tech-item">React</span>
@@ -174,7 +180,8 @@
                       <i class="bi bi-layers"></i>
                     </div>
                     <h4>Modern Architecture</h4>
-                    <p>Scalable, maintainable code structure using the latest web technologies and best practices for long-term success.</p>
+                    <p>Scalable, maintainable code structure using the latest web technologies and best practices for
+                      long-term success.</p>
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -183,7 +190,8 @@
                       <i class="bi bi-speedometer2"></i>
                     </div>
                     <h4>Lightning Fast</h4>
-                    <p>Optimized performance with lazy loading, code splitting, and CDN integration for instant page loads.</p>
+                    <p>Optimized performance with lazy loading, code splitting, and CDN integration for instant page
+                      loads.</p>
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -192,7 +200,8 @@
                       <i class="bi bi-phone-landscape"></i>
                     </div>
                     <h4>Responsive Design</h4>
-                    <p>Pixel-perfect layouts that adapt seamlessly across all devices, from mobile phones to large desktop screens.</p>
+                    <p>Pixel-perfect layouts that adapt seamlessly across all devices, from mobile phones to large
+                      desktop screens.</p>
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -214,7 +223,8 @@
                   <div class="timeline-marker">1</div>
                   <div class="timeline-content">
                     <h4>Strategy &amp; Planning</h4>
-                    <p>We carefully plan and organize ideas to achieve the best results. Our focus is on making clear strategies that help projects run smoothly and successfully.</p>
+                    <p>We carefully plan and organize ideas to achieve the best results. Our focus is on making clear
+                      strategies that help projects run smoothly and successfully.</p>
                     <span class="duration">1 week</span>
                   </div>
                 </div>
@@ -222,7 +232,8 @@
                   <div class="timeline-marker">2</div>
                   <div class="timeline-content">
                     <h4>Design &amp; Prototyping</h4>
-                    <p>We create simple and clear designs before building the final product. This helps us plan the layout and user experience in a better way.</p>
+                    <p>We create simple and clear designs before building the final product. This helps us plan the
+                      layout and user experience in a better way.</p>
                     <span class="duration">1-2 weeks</span>
                   </div>
                 </div>
@@ -230,7 +241,8 @@
                   <div class="timeline-marker">3</div>
                   <div class="timeline-content">
                     <h4>Development &amp; Testing</h4>
-                    <p>We build the website or application and then carefully test it to make sure everything works properly without errors.</p>
+                    <p>We build the website or application and then carefully test it to make sure everything works
+                      properly without errors.</p>
                     <span class="duration">2-3 weeks</span>
                   </div>
                 </div>
@@ -238,7 +250,8 @@
                   <div class="timeline-marker">4</div>
                   <div class="timeline-content">
                     <h4>Launch &amp; Optimization</h4>
-                    <p>We publish the website or app and make improvements to ensure it runs fast, smooth, and works properly for users.</p>
+                    <p>We publish the website or app and make improvements to ensure it runs fast, smooth, and works
+                      properly for users.</p>
                     <span class="duration">1 week</span>
                   </div>
                 </div>
@@ -255,10 +268,13 @@
                   <i class="bi bi-star-fill"></i>
                 </div>
                 <blockquote>
-                  "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Exceptional work and outstanding communication throughout."
+                  "I am a dedicated and detail-oriented developer with a passion for crafting high-quality web
+                  applications. My goal is to combine creativity with technical expertise to build responsive, fast, and
+                  visually engaging user interfaces. I am always eager to learn, solve complex problems, and deliver
+                  solutions that provide real value to users."
                 </blockquote>
                 <div class="client-info">
-                  <img src="assets/img/person/person-m-5.webp" alt="Michael Chen" class="client-avatar">
+                  <img src="assets/img/profile/Picture.jpeg" alt="Michael Chen" class="client-avatar">
                   <div class="client-details">
                     <h5>Michael Chen</h5>
                     <p>TechStart Inc.</p>
@@ -320,7 +336,10 @@
           <a href="index.html" class="logo d-flex align-items-center">
             <span class="sitename">Portfolio</span>
           </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <p>I am a dedicated and detail-oriented developer with a passion for crafting high-quality web applications.
+            My goal is to combine creativity with technical expertise to build responsive, fast, and visually engaging
+            user interfaces. I am always eager to learn, solve complex problems, and deliver solutions that provide real
+            value to users.</p>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
@@ -366,18 +385,19 @@
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">Craftivo</strong> <span>All Rights Reserved</span></p>
       <!-- <div class="credits"> -->
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> | <a href="https://bootstrapmade.com/tools/">DevTools</a> -->
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you've purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+      <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> | <a href="https://bootstrapmade.com/tools/">DevTools</a> -->
       <!-- </div> -->
     </div>
 
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
@@ -395,6 +415,114 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- script  -->
+  <script>
+    const services = {
+      ui: {
+        title: "UI Design",
+        tagline: "Clean Interfaces",
+        heading: "Modern UI Design",
+        desc: "We design responsive UI.",
+        price: "$1,200",
+        delivery: "2-3 weeks delivery",
+        revisions: "3 revisions",
+        support: "30 days support",
+        image: "assets/img/portfolio/Image2.jpeg"
+      },
+
+      frontend: {
+        title: "Frontend Development",
+        tagline: "Interactive UI",
+        heading: "High Performance Frontend",
+        desc: "We build fast websites.",
+        price: "$1,800",
+        delivery: "3-4 weeks delivery",
+        revisions: "Unlimited revisions",
+        support: "45 days support",
+        image: "assets/img/portfolio/Image1.jpeg"
+      },
+
+      backend: {
+        title: "Backend Development",
+        tagline: "Server Logic",
+        heading: "Secure Backend",
+        desc: "APIs and databases.",
+        price: "$2,500",
+        delivery: "4-6 weeks delivery",
+        revisions: "Unlimited revisions",
+        support: "60 days support",
+        image: "assets/img/portfolio/Image2.jpeg"
+      },
+      optimization: {
+        title: "Optimization",
+        tagline: "Speed Boost",
+        heading: "Performance Optimization",
+        desc: "We optimize website speed, SEO, and performance.",
+        price: "$900",
+        delivery: "1-2 weeks delivery",
+        revisions: "2 revisions",
+        support: "15 days support",
+        image: "assets/img/portfolio/Image4.jpeg"
+      },
+
+      landing: {
+        title: "Landing Page",
+        tagline: "High Conversion",
+        heading: "Modern Landing Pages",
+        desc: "We design high converting landing pages.",
+        price: "$700",
+        delivery: "1 week delivery",
+        revisions: "2 revisions",
+        support: "15 days support",
+        image: "assets/img/portfolio/Image3.jpeg"
+      },
+
+      auth: {
+        title: "Authentication System",
+        tagline: "Secure Login",
+        heading: "Login & Signup System",
+        desc: "Secure authentication with JWT / sessions.",
+        price: "$1,500",
+        delivery: "2-3 weeks delivery",
+        revisions: "Unlimited revisions",
+        support: "30 days support",
+        image: "assets/img/portfolio/Image5.jpeg"
+      },
+
+      response: {
+        title: "EduVerse Response System",
+        tagline: "Fast Backend",
+        heading: "Optimized API Responses",
+        desc: "Fast and structured API response system.",
+        price: "$1,300",
+        delivery: "2-3 weeks delivery",
+        revisions: "Unlimited revisions",
+        support: "30 days support",
+        image: "assets/img/portfolio/Image6.jpeg"
+      }
+    };
+
+    const id = new URLSearchParams(window.location.search).get("id");
+
+    if (services[id]) {
+      const s = services[id];
+
+      document.getElementById("serviceTitle").innerText = s.title;
+      document.getElementById("serviceTagline").innerText = s.tagline;
+      document.getElementById("serviceHeading").innerText = s.heading;
+      document.getElementById("serviceDesc").innerText = s.desc;
+      document.getElementById("serviceImage").src = s.image;
+
+      document.getElementById("sidebarTitle").innerText = s.title;
+      document.getElementById("sidebarTagline").innerText = s.tagline;
+      document.getElementById("servicePrice").innerText = s.price;
+      document.getElementById("deliveryTime").innerText = s.delivery;
+      document.getElementById("revisions").innerText = s.revisions;
+      document.getElementById("support").innerText = s.support;
+    }
+
+  </script>
 
 </body>
 
